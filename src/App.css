@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  border-color: 1px solid lightgrey;
+  padding: 20px;
+  transform: translate(-50%,-50%);
+}
+
+.main-title {
+  text-align: center;
+  width: 100%;
+}
+
+.flexContainer {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+}
